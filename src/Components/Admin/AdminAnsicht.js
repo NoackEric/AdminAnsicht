@@ -13,17 +13,18 @@ class Admin extends Component {
             className: 'popUp hidden',
             classNameDefault: 'normal',
             Datas: Datas,
-            
+            popupID: null
         }
     }
    
     showPopup = (id)=>{
         console.log(id)
         let delElement;
-        delElement =this.state.Datas.filter((el)=> {
+        delElement = this.state.Datas.filter((el)=> {
+            console.log(el.id === id)
             return el.id === id
         })
-
+        this.setState({ popupID: id });
          this.setState({ classNameDefault: 'normal hide',className: 'popUp show' });
     }
     showHidden =()=>{
@@ -38,9 +39,12 @@ class Admin extends Component {
           this.setState({ Datas: filtredData })
     }
     render() {
+
         let newArr =[];
-        newArr= this.state.Datas.map((el)=> { 
-          return  <Popup popUp=
+        
+         newArr= this.state.Datas.map((el)=> { 
+             if (el.id === this.state.popupID) {
+                return  <Popup popUp=
           {this.state.className} 
           Keys={el.id}
           btnHandler={this.showHidden} 
@@ -54,6 +58,8 @@ class Admin extends Component {
           budget={el.budget}
           deadLine={el.deadLine}
           />
+             }
+          
         })
 
         const Datas=this.state.Datas.map((data,index)=><MainAdmin  data={data} key={data.id} classNameDefault={this.state.classNameDefault} deleteAdmin={this.deleteAdmin} showPopup={()=>this.showPopup(data.id)}/> )

@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const MainAdmin = (props) => {
-    console.log(props)
+    console.log(props.data.id)
     return ( 
         <article className={props.classNameDefault}>
                 <div className='pointContainer'>

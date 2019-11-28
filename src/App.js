@@ -1,5 +1,5 @@
 import React from 'react';
-import Admin from './Components/AdminAnsicht';
+import Admin from './Components/Admin/AdminAnsicht';
 
 
 
