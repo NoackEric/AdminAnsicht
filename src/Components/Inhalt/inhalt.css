@@ -1,0 +1,49 @@
+.Inhalt {
+    height: auto;
+    width: 55%;
+    text-align: center;
+    background: rgba(128, 128, 128, 0.411);
+}
+
+.InhaltSection {
+    height: auto;
+    border: 1px solid white;
+}
+
+.InhaltSection h2 {
+    padding-left: 0px;
+    padding-top: 2em;
+    color: #042956;
+}
+
+.InhaltSection button {
+    padding: 1em 4em;
+    border-radius: 2px;
+    margin: 1em;
+    background: #00DEAC;
+    color: #042956;
+    font-size: .8em;
+    font-weight: bolder;
+}
+
+.InhaltForm {
+    padding: 1.5em;
+}
+
+.InhaltForm>p {
+    padding: 1em;
+    color: #042956;
+}
+
+.InhaltSubmit {
+    padding: 1em 4em;
+    border-radius: 2px;
+    margin: 1em;
+    background: #00DEAC;
+    color: #042956;
+    font-size: .8em;
+    font-weight: bolder;
+}
+.socialIcon{
+    font-size: 2em;
+}
