@@ -1,22 +1,18 @@
-.gewerbe {
+.VorgabenSection {
     height: auto;
     width: 55%;
     text-align: center;
     background: rgba(128, 128, 128, 0.411);
 }
 
-.gewerbeSection {
-    height: auto;
-    border: 1px solid white;
-}
 
-.gewerbeSection h2 {
+.VorgabenSection h2 {
     padding-left: 0px;
     padding-top: 2em;
     color: #042956;
 }
 
-.unternehmenSection button {
+.VorgabenSection button {
     padding: 1em 4em;
     border-radius: 2px;
     margin: 1em;
@@ -26,16 +22,19 @@
     font-weight: bolder;
 }
 
-.gewerbeForm {
+.VorgabenSectionForm {
     padding: 1.5em;
 }
+.mustHave{
+    padding: 1em ;
+}
 
-.gewerbeForm>p {
+.VorgabenSectionForm>p {
     padding: 1em;
     color: #042956;
 }
 
-.gewerbeSubmit {
+.VorgabenSectionSubmit {
     padding: 1em 4em;
     border-radius: 2px;
     margin: 1em;

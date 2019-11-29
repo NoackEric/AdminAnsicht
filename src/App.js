@@ -5,6 +5,7 @@ import Kategorie from './Components/Kategorie/Kategorie';
 import Unternehmen from './Components/UnternehmenInfo/UnternehmenInfo';
 import Gewerbe from './Components/GewerbeInfos/GewerbeInfos';
 import Inhalt from './Components/Inhalt/Inhalt';
+import Vorgaben from './Components/Vorgaben/Vorgaben';
 
 
 
@@ -12,7 +13,7 @@ import Inhalt from './Components/Inhalt/Inhalt';
 function App() {
   return (
     <div className="App">
-    <Inhalt />
+    <Vorgaben />
     </div>
   );
 }
