@@ -1,0 +1,12 @@
+.newBriefing{
+    text-align: center;
+}
+.newBriefing h2{
+    padding: 3em;
+    color: #00DEAC;
+}
+.newBriefing button{
+    background: #042956;
+    border-radius: 2px;
+    margin: 2em;
+}
