@@ -1,14 +1,16 @@
 import React from 'react';
-import Admin from './Components/Admin/AdminAnsicht';
+
 import Anrede from './Components/Anrede/Anrede';
-import Antrag from './Components/NeuBriefing/Antrag';
+import Kategorie from './Components/Kategorie/Kategorie';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <Antrag />
+     < Anrede />
+     <Kategorie />
     </div>
   );
 }
